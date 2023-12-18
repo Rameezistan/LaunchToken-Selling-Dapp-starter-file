@@ -22,11 +22,15 @@ import {
 const index = () => {
   return (
     <div className="v_dark">
-      <Header />
+      <Header
+      /*address = {address}
+    setAddress={setAddress}
+    connectWallet={connectWallet}*/
+      />
+      <Banner />
       <Service />
       <About />
       <TokenSale />
-      {/* buyToken={buyToken} tokenSale={tokenSale} */}
       <Distribution />
       <MobileApp />
       <Team />
