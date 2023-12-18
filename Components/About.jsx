@@ -11,7 +11,7 @@ const About = () => {
               <img
                 src="assets/images/about_img2.png"
                 alt=""
-                data-animation="zoomin"
+                data-animation="zoomIn"
                 data-animation-delay="0.2s"
                 className="animation"
               />
