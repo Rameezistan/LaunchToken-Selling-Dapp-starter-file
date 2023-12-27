@@ -86,7 +86,7 @@ const TokenSale = ({ buyToken, tokenSale }) => {
                 data-animation="fadeInUp"
                 data-animation-delay="0.2s"
               >
-                1 ETH = 1 TBC, 1 ECC = 1 TBC
+                1 ETH = 1 ABRI, 1 ECC = 1 ABRI
               </p>
             </div>
           </div>
@@ -141,13 +141,13 @@ const TokenSale = ({ buyToken, tokenSale }) => {
                     <span className="progress_label bg-white inline_style_1">
                       <strong>
                         {tokenSale?.tokenSold}
-                        TBC
+                        ABRI
                       </strong>
                     </span>
                     <span className="progress_label bg-white inline_style_2">
                       <strong>
                         {tokenSale?.tokenSaleBalance}
-                        TBC
+                        ABRI
                       </strong>
                     </span>
                     <span className="progress_min_val">Sale Raised</span>
@@ -226,7 +226,7 @@ const TokenSale = ({ buyToken, tokenSale }) => {
                 data-animation="fadeInUp"
                 data-animation-delay="0.2s"
               >
-                {tokenSale?.tokenSold} TBC {showPersentage.slice(0, 4)}%
+                {tokenSale?.tokenSold} ABRI {showPersentage.slice(0, 4)}%
               </p>
             </div>
             <div className="pr_box">

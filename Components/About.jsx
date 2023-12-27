@@ -25,7 +25,7 @@ const About = () => {
                 data-animation-delay="0.2s"
                 data-animation="fadeInUp"
               >
-                About The Cryptocash
+                About The Abri Coin
               </h4>
               <p
                 className="animation"
