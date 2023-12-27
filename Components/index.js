@@ -12,24 +12,24 @@ import Loader from "./Loader";
 import MobileApp from "./MobileApp";
 import Service from "./Service";
 import Team from "./Team";
-import Timeline from "./Timeline";
+// import Timeline from "./Timeline";
 import TokenSale from "./TokenSale";
 
 export {
-    About,
-    ArrowUp,
-    Banner,
-    Blog,
-    Client,
-    Contact,
-    Distribution,
-    Faq,
-    Footer,
-    Header,
-    Loader,
-    MobileApp,
-    Service,
-    Team,
-    Timeline,
-    TokenSale
-}
+  About,
+  ArrowUp,
+  Banner,
+  Blog,
+  Client,
+  Contact,
+  Distribution,
+  Faq,
+  Footer,
+  Header,
+  Loader,
+  MobileApp,
+  Service,
+  Team,
+  // Timeline,
+  TokenSale,
+};
