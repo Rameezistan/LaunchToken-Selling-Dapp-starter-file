@@ -112,7 +112,7 @@ const TokenSale = ({ buyToken, tokenSale }) => {
                         id="first-name"
                         min={1}
                         className="form-control"
-                        onChange={() => setNtoken(e.target.value)}
+                        // onChange={() => setNtoken(e.target.value)}
                         name="token"
                       />
                     </div>
