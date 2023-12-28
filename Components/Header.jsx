@@ -52,21 +52,21 @@ const Header = ({ address, setAddress, connectWallet }) => {
               alt="logo"
               className="logo_dark"
             />
-
-            <button
-              className="navbar-toggler animation"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-              data-animation="fadeInDown"
-              data-animation-dalay="1.1s"
-            >
-              <BiMenu />
-            </button>
           </a>
+
+          <button
+            className="navbar-toggler animation"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            data-animation="fadeInDown"
+            data-animation-dalay="1.1s"
+          >
+            <BiMenu />
+          </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav m-auto">
               {menuList.map((menu, i) => (
