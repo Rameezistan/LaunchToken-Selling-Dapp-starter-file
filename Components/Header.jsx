@@ -34,7 +34,7 @@ const Header = ({ address, setAddress, connectWallet }) => {
   ];
   return (
     <header className="header_wrap fixed-top">
-      <div className="container-fluid">
+      <div className="container">
         <nav className="navbar navbar-expand-lg">
           <a
             href="#home_section"
