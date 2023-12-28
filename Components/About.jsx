@@ -11,7 +11,7 @@ const About = () => {
               <img
                 src="assets/images/about_img2.png"
                 alt=""
-                data-animation="zoomin"
+                data-animation="zoomIn"
                 data-animation-delay="0.2s"
                 className="animation"
               />
@@ -25,7 +25,7 @@ const About = () => {
                 data-animation-delay="0.2s"
                 data-animation="fadeInUp"
               >
-                About The Cryptocash
+                About The Abri Coin
               </h4>
               <p
                 className="animation"

@@ -155,6 +155,7 @@ const TokenSale = ({ buyToken, tokenSale }) => {
                   </div>
 
                   <a
+                    href=""
                     className="btn btn-default btn-radius animation"
                     data-animation="fadeInUp"
                     data-animation-delay="0.1s"
