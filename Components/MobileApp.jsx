@@ -46,11 +46,11 @@ const MobileApp = () => {
               data-animation="fadeInUp"
               data-animation-delay="0.6s"
             >
-              <a className="btn btn-default btn-radius">
+              <a href="" className="btn btn-default btn-radius">
                 <AiFillAndroid className="new_font_size" />
                 Google Store
               </a>
-              <a className="btn btn-default btn-radius">
+              <a href="" className="btn btn-default btn-radius">
                 <IoLogoApple className="new_font_size" />
                 Apple Store
               </a>

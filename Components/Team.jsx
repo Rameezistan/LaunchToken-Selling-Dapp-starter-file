@@ -2,7 +2,7 @@ import React from "react";
 
 const Team = () => {
   return (
-    <section id="section" className="container">
+    <section id="team" className="container">
       <div>
         <div className="title_default_light title_border text-center">
           <h4
