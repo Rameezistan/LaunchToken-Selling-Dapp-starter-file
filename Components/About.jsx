@@ -20,7 +20,6 @@ const About = () => {
 
           <div className="col-lg-6 col-md-12 col-sm-12 res-md-mt-30 res-sm-mt-20">
             <div className="title_default_light title_border text-center">
-              <br />
               <h4
                 className="animation"
                 data-animation-delay="0.2s"
