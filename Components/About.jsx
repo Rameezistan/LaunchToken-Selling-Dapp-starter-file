@@ -19,7 +19,6 @@ const About = () => {
           </div>
 
           <div className="col-lg-6 col-md-12 col-sm-12 res-md-mt-30 res-sm-mt-20">
-            <br />
             <div className="title_default_light title_border text-center">
               <h4
                 className="animation"
@@ -39,17 +38,15 @@ const About = () => {
                 facere dignissimos provident mollitia totam harum?
               </p>
             </div>
-            <br />
-            <div className="container">
-              <a
-                href=""
-                className="btn btn-default btn-radius video animation centered-button"
-                data-animation-delay="1s"
-                data-animation="fadeInUp"
-              >
-                Let's Start <BsArrowRight />
-              </a>
-            </div>
+
+            <a
+              href=""
+              className="btn btn-default btn-radius video animation"
+              data-animation-delay="1s"
+              data-animation="fadeInUp"
+            >
+              Let's Start <BsArrowRight />
+            </a>
           </div>
         </div>
       </div>
