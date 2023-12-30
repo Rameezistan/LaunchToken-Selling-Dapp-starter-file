@@ -19,6 +19,7 @@ const About = () => {
           </div>
 
           <div className="col-lg-6 col-md-12 col-sm-12 res-md-mt-30 res-sm-mt-20">
+            <br />
             <div className="title_default_light title_border text-center">
               <h4
                 className="animation"
@@ -37,16 +38,24 @@ const About = () => {
                 inventore doloremque iusto eaque sint minima sapiente laboriosam
                 facere dignissimos provident mollitia totam harum?
               </p>
+              <p
+                className="animation"
+                data-animation-delay="0.8s"
+                data-animation="fadeInUp"
+              >
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
+                veritatis cupiditate quibusdam nobis laudantium ab hic,
+                inventore doloremque.
+              </p>
+              <a
+                href=""
+                className="btn btn-default btn-radius video animation"
+                data-animation-delay="1s"
+                data-animation="fadeInUp"
+              >
+                Let's Start <BsArrowRight />
+              </a>
             </div>
-
-            <a
-              href=""
-              className="btn btn-default btn-radius video animation"
-              data-animation-delay="1s"
-              data-animation="fadeInUp"
-            >
-              Let's Start <BsArrowRight />
-            </a>
           </div>
         </div>
       </div>
