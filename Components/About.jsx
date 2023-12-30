@@ -46,16 +46,16 @@ const About = () => {
                 veritatis cupiditate quibusdam nobis laudantium ab hic,
                 inventore doloremque.
               </p>
-            </div>
 
-            <a
-              href=""
-              className="btn btn-default btn-radius video animation"
-              data-animation-delay="1s"
-              data-animation="fadeInUp"
-            >
-              Let's Start <BsArrowRight />
-            </a>
+              <a
+                href=""
+                className="btn btn-default btn-radius video animation"
+                data-animation-delay="1s"
+                data-animation="fadeInUp"
+              >
+                Let's Start <BsArrowRight />
+              </a>
+            </div>
           </div>
         </div>
       </div>
