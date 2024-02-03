@@ -22,6 +22,44 @@ const FAQ = () => {
               data-animation="fadeInUp"
               data-animation-delay="0.2s"
             >
+              <b>What is Abri and the Abri Token Sale? </b>
+            </h5>
+            <div className="title_default_light title_border">
+              <p
+                className="animation"
+                data-animation="fadeInUp"
+                data-animation-delay="0.6s"
+              >
+                A: Abri is an innovative cryptocurrency project at the forefront of artificial intelligence and blockchain integration. The Abri Token Sale is our fundraising event, allowing early contributors to acquire Abri tokens (AI) and be part of the project's exciting journey.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <h5
+              className="animation"
+              data-animation="fadeInUp"
+              data-animation-delay="0.2s"
+            >
+              <b>How do I participate in the Abri Token Sale? </b>
+            </h5>
+            <div className="title_default_light title_border">
+              <p
+                className="animation"
+                data-animation="fadeInUp"
+                data-animation-delay="0.6s"
+              >
+                A: Participating in the Abri Token Sale is easy! Visit our official website during the specified ICO phase, connect your compatible wallet (like MetaMask), and follow the intuitive steps to contribute using BNB (Binance Coin) or other accepted cryptocurrencies.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <h5
+              className="animation"
+              data-animation="fadeInUp"
+              data-animation-delay="0.2s"
+            >
               <b>What is an ICO?</b>
             </h5>
             <div className="title_default_light title_border">
@@ -30,11 +68,7 @@ const FAQ = () => {
                 data-animation="fadeInUp"
                 data-animation-delay="0.6s"
               >
-                A: ICO stands for Initial Coin Offering. It is a fundraising
-                method commonly used by blockchain and cryptocurrency projects
-                to raise capital. In an ICO, tokens or coins are sold to
-                investors in exchange for funding, typically in the form of
-                popular cryptocurrencies like Bitcoin or Ethereum.
+                A: ICO stands for Initial Coin Offering. It's a fundraising method for cryptocurrency projects, allowing early supporters to purchase tokens at a set price before they are listed on exchanges. ICOs provide a way for projects to secure funding and for investors to get involved early in promising ventures.
               </p>
             </div>
           </div>
@@ -45,7 +79,7 @@ const FAQ = () => {
               data-animation="fadeInUp"
               data-animation-delay="0.2s"
             >
-              <b>How can I participate in the token sale?</b>
+              <b>Can I use any wallet to participate in the Abri Token Sale?</b>
             </h5>
             <div className="title_default_light title_border">
               <p
@@ -53,10 +87,7 @@ const FAQ = () => {
                 data-animation="fadeInUp"
                 data-animation-delay="0.6s"
               >
-                A: To participate in the token sale, you need to visit our
-                official website and follow the registration process. During the
-                ICO period, you can purchase tokens using supported
-                cryptocurrencies or other specified payment methods.
+                A: We recommend using compatible wallets such as MetaMask or Trust Wallet for a seamless experience. Ensure your wallet supports BEP-20 tokens if you're contributing with BNB.
               </p>
             </div>
           </div>
@@ -67,7 +98,7 @@ const FAQ = () => {
               data-animation="fadeInUp"
               data-animation-delay="0.2s"
             >
-              <b>What is a token?</b>
+              <b>Is there a minimum or maximum contribution limit? </b>
             </h5>
             <div className="title_default_light title_border">
               <p
@@ -75,10 +106,7 @@ const FAQ = () => {
                 data-animation="fadeInUp"
                 data-animation-delay="0.6s"
               >
-                A: In the context of ICOs, a token is a unit of value issued by
-                a project. It can represent a stake in the project, access to a
-                specific feature, or any other form of utility within the
-                project's ecosystem.
+                A: Yes, there are limits in place to ensure a fair distribution. Refer to our official ICO documentation for specific details on the minimum and maximum contribution limits for each phase.
               </p>
             </div>
           </div>
@@ -89,7 +117,7 @@ const FAQ = () => {
               data-animation="fadeInUp"
               data-animation-delay="0.2s"
             >
-              <b>How do I store the tokens I purchase during the ICO?</b>
+              <b>How can I stay updated on Abri's developments and announcements?</b>
             </h5>
             <div className="title_default_light title_border">
               <p
@@ -97,12 +125,26 @@ const FAQ = () => {
                 data-animation="fadeInUp"
                 data-animation-delay="0.6s"
               >
-                A: After participating in an ICO, you will need a compatible
-                wallet to store your tokens. Make sure to use a wallet that
-                supports the specific token standard (such as ERC-20 for
-                Ethereum-based tokens). You can use hardware wallets, software
-                wallets, or even certain exchange wallets depending on the
-                project.
+                A: Follow us on our official social media channels, join our community forums, and subscribe to our newsletter for real-time updates, announcements, and engaging discussions.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <h5
+              className="animation"
+              data-animation="fadeInUp"
+              data-animation-delay="0.2s"
+            >
+              <b>What makes Abri unique in the cryptocurrency space?</b>
+            </h5>
+            <div className="title_default_light title_border">
+              <p
+                className="animation"
+                data-animation="fadeInUp"
+                data-animation-delay="0.6s"
+              >
+                A: Abri's uniqueness lies in its fusion of advanced AI technology and blockchain, creating a smarter and more intuitive cryptocurrency experience. Explore our whitepaper for an in-depth look at the innovative features that set Abri apart.
               </p>
             </div>
           </div>
