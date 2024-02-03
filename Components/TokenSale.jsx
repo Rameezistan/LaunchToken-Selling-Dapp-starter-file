@@ -3,11 +3,7 @@ import { BsCurrencyBitcoin, BsArrowRight } from "react-icons/bs";
 import { FaEthereum } from "react-icons/fa";
 import { SiRipple, SiLitecoin } from "react-icons/si";
 
-const TokenSale = ({ buyToken, tokenSale }) => {
-  const [nToken, setNtoken] = useState(1);
-
-  const persentage = (tokenSale?.tokenSold / tokenSale?.tokenSaleBalance) * 100;
-  const showPersentage = persentage.toString();
+const TokenSale = () => {
   return (
     <section
       id="token"
@@ -18,7 +14,7 @@ const TokenSale = ({ buyToken, tokenSale }) => {
     >
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 offset-lg-3 col-md-12 col-sm-12">
+          <div className="col-md-12 col-sm-12">
             <div className="title_default_light title_border text-center">
               <h4
                 className="animation"
@@ -32,9 +28,7 @@ const TokenSale = ({ buyToken, tokenSale }) => {
                 data-animation="fadeInUp"
                 data-animation-delay="0.2s"
               >
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt
-                consequatur expedita dolorem sapiente hic quisquam ducimus
-                impedit amet.
+                We are thrilled to announce the commencement of Abri's Phase 1 ICO, marking a significant milestone in our mission to redefine the intersection of artificial intelligence and blockchain technology. As of [01-02-2024], early contributors can seize the opportunity to be part of a groundbreaking project set to reshape the future of cryptocurrency. Abri's Phase 1 ICO offers a unique chance to secure Abri tokens at an exclusive rate of 0.00000333 BNB per AI token, with a generous 20% bonus for all contributions during this initial phase. Join us on this transformative journey, where innovation meets investment, and together, let's propel Abri into a new era of intelligent finance.
               </p>
             </div>
           </div>
@@ -86,7 +80,7 @@ const TokenSale = ({ buyToken, tokenSale }) => {
                 data-animation="fadeInUp"
                 data-animation-delay="0.2s"
               >
-                1 ETH = 1 ABRI, 1 ECC = 1 ABRI
+                1 BNB = 300000 ABRI
               </p>
             </div>
           </div>
@@ -98,26 +92,6 @@ const TokenSale = ({ buyToken, tokenSale }) => {
                 data-animation="fadeInUp"
                 data-animation-delay="0.1s"
               >
-                <div className="field_form">
-                  <div className="row">
-                    <div
-                      className="form-group col-md-12 animation"
-                      data-animation="fadeInUp"
-                      data-animation-delay="1.4s"
-                    >
-                      <input
-                        type="number"
-                        required
-                        placeholder="1"
-                        id="first-name"
-                        min={1}
-                        className="form-control"
-                        // onChange={() => setNtoken(e.target.value)}
-                        name="token"
-                      />
-                    </div>
-                  </div>
-                </div>
 
                 <div className="tk_counter_inner">
                   <div
@@ -128,25 +102,25 @@ const TokenSale = ({ buyToken, tokenSale }) => {
                     <div
                       className="progress-bar progress-bar-striped gradient"
                       role="progressbar"
-                      aria-valuenow={`${persentage}`}
+                      aria-valuenow={"80"}
                       aria-valuemin={"0"}
                       aria-valuemax={"100"}
                       style={{
-                        width: `${persentage}`,
+                        width: 80,
                       }}
                     >
-                      {showPersentage.slice(0, 4)}%
+                      30%
                     </div>
 
                     <span className="progress_label bg-white inline_style_1">
                       <strong>
-                        {tokenSale?.tokenSold}
+                        
                         ABRI
                       </strong>
                     </span>
                     <span className="progress_label bg-white inline_style_2">
                       <strong>
-                        {tokenSale?.tokenSaleBalance}
+                        
                         ABRI
                       </strong>
                     </span>
@@ -162,36 +136,7 @@ const TokenSale = ({ buyToken, tokenSale }) => {
                   >
                     Buy Tokens <BsArrowRight />
                   </a>
-                  <ul className="icon_list list_none d-flex justify-content-center">
-                    <li
-                      className=" animation"
-                      data-animation="fadeInUp"
-                      data-animation-delay="0.5s"
-                    >
-                      <FaEthereum />
-                    </li>
-                    <li
-                      className=" animation"
-                      data-animation="fadeInUp"
-                      data-animation-delay="0.5s"
-                    >
-                      <BsCurrencyBitcoin />
-                    </li>
-                    <li
-                      className=" animation"
-                      data-animation="fadeInUp"
-                      data-animation-delay="0.5s"
-                    >
-                      <SiRipple />
-                    </li>
-                    <li
-                      className=" animation"
-                      data-animation="fadeInUp"
-                      data-animation-delay="0.5s"
-                    >
-                      <SiLitecoin />
-                    </li>
-                  </ul>
+                  
                 </div>
               </div>
             </div>
@@ -227,7 +172,7 @@ const TokenSale = ({ buyToken, tokenSale }) => {
                 data-animation="fadeInUp"
                 data-animation-delay="0.2s"
               >
-                {tokenSale?.tokenSold} ABRI {showPersentage.slice(0, 4)}%
+                 ABRI 40%
               </p>
             </div>
             <div className="pr_box">
@@ -243,7 +188,7 @@ const TokenSale = ({ buyToken, tokenSale }) => {
                 data-animation="fadeInUp"
                 data-animation-delay="0.2s"
               >
-                ETH, BTC, LTC, XRP
+                BNB
               </p>
             </div>
           </div>
@@ -252,5 +197,4 @@ const TokenSale = ({ buyToken, tokenSale }) => {
     </section>
   );
 };
-
 export default TokenSale;

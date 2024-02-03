@@ -1,7 +1,5 @@
 import React from "react";
 import { BsCurrencyBitcoin, BsArrowRight } from "react-icons/bs";
-import { FaEthereum } from "react-icons/fa";
-import { SiRipple, SiLitecoin } from "react-icons/si";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 
 const Banner = () => {
@@ -9,7 +7,7 @@ const Banner = () => {
     <section
       id="home_section"
       className="section_banner bg_black_dark"
-      data-zindex="1"
+      data-z-index="1"
       data-parallax="scroll"
       data-image-src="assets/images/banner_bg2.png"
     >
@@ -23,8 +21,8 @@ const Banner = () => {
                 data-animation="fadeInUp"
                 data-animation-delay="1.1s"
               >
-                <strong>Abri Coin</strong> is a peer to peer innovative
-                <strong> network</strong>
+              <strong>Abri  </strong> is an innovative fusion of cutting-edge <strong> AI technology</strong> and the transformative power of blockchain.
+
               </h1>
               <h5
                 className="animation presale_txt text-white"
@@ -52,57 +50,6 @@ const Banner = () => {
                   {/* <a className="btn btn-border btn-radius"> Transfer Token <BsArrowRight /> */}
                 </a>
               </div>
-
-              <span
-                className="text-white icon_title animation"
-                data-animation="fadeInUp"
-                data-animation-delay="1.4s"
-              >
-                We accept:
-              </span>
-
-              <ul className="list_none currency_icon">
-                <li
-                  className="animation"
-                  data-animation="fadeInUp"
-                  data-animation-delay="1.5s"
-                >
-                  <span className="new_icon_style">
-                    <BsCurrencyBitcoin className="new_font_size" />
-                  </span>
-                  <span>Bitcoin</span>
-                </li>
-                <li
-                  className="animation"
-                  data-animation="fadeInUp"
-                  data-animation-delay="1.5s"
-                >
-                  <span className="new_icon_style">
-                    <FaEthereum className="new_font_size" />
-                  </span>
-                  <span>Ethereum</span>
-                </li>
-                <li
-                  className="animation"
-                  data-animation="fadeInUp"
-                  data-animation-delay="1.5s"
-                >
-                  <span className="new_icon_style">
-                    <SiLitecoin className="new_font_size" />
-                  </span>
-                  <span>Litecoin</span>
-                </li>
-                <li
-                  className="animation"
-                  data-animation="fadeInUp"
-                  data-animation-delay="1.5s"
-                >
-                  <span className="new_icon_style">
-                    <SiRipple className="new_font_size" />
-                  </span>
-                  <span>Ripple</span>
-                </li>
-              </ul>
 
               <div className="team_pop mfp-hide" id="whitepaper">
                 <div className="row m-0">

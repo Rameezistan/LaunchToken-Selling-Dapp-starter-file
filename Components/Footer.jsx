@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
-  const footerList = ["Cryptocash", "How its work", "Token", "FAQ", "Contact"];
+  const footerList = ["Home", "Services", "About", "FAQ", "Contact"];
   return (
     <footer>
     <div className="top_footer bg_light_dark" data-z-index="1" data-parallax="scroll" data-image-src="assets/images/footer-bg.png"
@@ -72,7 +72,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-6">
             <p className="copyright">
-              Copyright &copy; 2023 All Right reserved by @AbriCoin
+              Copyright &copy; 2024 All Right reserved by <a href="https://abricoin.org">AbriCoin</a>
             </p>
           </div>
 

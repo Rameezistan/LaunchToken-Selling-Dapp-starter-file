@@ -46,8 +46,7 @@ const Contact = () => {
                   data-animation="fadeInUp"
                   data-animation-delay="0.2s"
                 >
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                  quidem aut, magni odio, iure tempore obcaecati culpa, ab.
+                  If you have any query regarding token selling or any further issue, Feel free to contact us. We're here to help.
                 </p>
               </div>
 
@@ -59,41 +58,19 @@ const Contact = () => {
                 >
                   <i className="ion-ios-email"></i>
                   <div className="contact_detail">
-                    <span>Address</span>
-                    <p>28 Model Town, Lahore, Pakistan</p>
-                  </div>
-                </li>
-                <li
-                  className="animation"
-                  data-animation="fadeInUp"
-                  data-animation-delay="0.2s"
-                >
-                  <i className="ion-ios-email"></i>
-                  <div className="contact_detail">
-                    <span>Phone</span>
-                    <p>+92 300 0000000</p>
-                  </div>
-                </li>
-                <li
-                  className="animation"
-                  data-animation="fadeInUp"
-                  data-animation-delay="0.2s"
-                >
-                  <i className="ion-ios-email"></i>
-                  <div className="contact_detail">
                     <span>Email</span>
-                    <p>ABC@gamil.com</p>
+                    <p><a href="mailto:contact@abricoin.org">contact@abricoin.org</a></p>
                   </div>
                 </li>
               </ul>
 
-              <div className="contct_follow pt-2 pt-md-4">
+              <div className="contact_follow pt-2 pt-md-4">
                 <span
                   className="text-uppercase animation"
                   data-animation="fadeInUp"
                   data-animation-delay="0.2s"
                 >
-                  Follow Us
+                  Follow Us &nbsp;
                 </span>
                 <ul className="list_none social_icon">
                   <li
@@ -202,7 +179,7 @@ const Contact = () => {
                   <textarea
                     type="text"
                     required
-                    id="dsecription"
+                    id="description"
                     placeholder="Message"
                     className="form-control"
                     name="description"
