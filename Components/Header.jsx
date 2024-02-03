@@ -20,10 +20,6 @@ const Header = ({ address, setAddress, connectWallet }) => {
       Link: "#token",
     },
     {
-      menu: "Team",
-      Link: "#team",
-    },
-    {
       menu: "Faq",
       Link: "#faq",
     },
@@ -43,12 +39,12 @@ const Header = ({ address, setAddress, connectWallet }) => {
             className="navbar-brand page-scroll"
           >
             <img
-              src="assets/images/logo.png"
+              src="../public/assets/images/logo.svg"
               alt="logo"
               className="logo-light"
             />
             <img
-              src="assets/images/logo_dark.png"
+              src="../public/assets/images/logo.svg"
               alt="logo"
               className="logo_dark"
             />
@@ -63,7 +59,7 @@ const Header = ({ address, setAddress, connectWallet }) => {
             aria-expanded="false"
             aria-label="Toggle navigation"
             data-animation="fadeInDown"
-            data-animation-dalay="1.1s"
+            data-animation-delay="1.1s"
           >
             <BiMenu />
           </button>
@@ -73,7 +69,7 @@ const Header = ({ address, setAddress, connectWallet }) => {
                 <li
                   key={i + 1}
                   className="animation"
-                  data-animation="fadeinDown"
+                  data-animation="fadeInDown"
                   data-animation-delay={`1.${i + 1}s`}
                 >
                   <a href={menu.Link} className="nav-link">
@@ -104,7 +100,7 @@ const Header = ({ address, setAddress, connectWallet }) => {
                   >
                     <small className="new-color">
                       {""}
-                      Connect
+                      Buy Now!
                     </small>
                   </a>
                 )}

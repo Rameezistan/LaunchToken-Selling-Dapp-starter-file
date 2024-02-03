@@ -22,30 +22,21 @@ const About = () => {
             <br />
             <div className="title_default_light title_border text-center">
               <h4
-                className="animation"
+                className="animation "
                 data-animation-delay="0.2s"
                 data-animation="fadeInUp"
               >
-                About The Abri Coin
+                TOKEN UTILITY
               </h4>
               <p
-                className="animation"
+                className="animation text-left"
                 data-animation-delay="0.4s"
                 data-animation="fadeInUp"
               >
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
-                veritatis cupiditate quibusdam nobis laudantium ab hic,
-                inventore doloremque iusto eaque sint minima sapiente laboriosam
-                facere dignissimos provident mollitia totam harum?
-              </p>
-              <p
-                className="animation"
-                data-animation-delay="0.8s"
-                data-animation="fadeInUp"
-              >
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
-                veritatis cupiditate quibusdam nobis laudantium ab hic,
-                inventore doloremque.
+                <ol><li><strong>Staking Rewards: </strong>Holders can stake AI tokens to earn rewards in the form of additional AI tokens and participate in network governance.</li>
+                <li><strong>Governance: </strong>Token holders will have the ability to participate in decision-making processes related to upgrades, proposals, and other protocol changes</li>
+                <li><strong>Platform Access: </strong>AI tokens can grant access to AI-based services and features within the Abri ecosystem.</li>
+                </ol>
               </p>
               <a
                 href=""
