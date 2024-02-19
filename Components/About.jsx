@@ -28,16 +28,27 @@ const About = () => {
               >
                 TOKEN UTILITY
               </h4>
-              <p
+
+              <ul
                 className="animation text-left"
                 data-animation-delay="0.4s"
                 data-animation="fadeInUp"
               >
-                <ol><li><strong>Staking Rewards: </strong>Holders can stake AI tokens to earn rewards in the form of additional AI tokens and participate in network governance.</li>
-                <li><strong>Governance: </strong>Token holders will have the ability to participate in decision-making processes related to upgrades, proposals, and other protocol changes</li>
-                <li><strong>Platform Access: </strong>AI tokens can grant access to AI-based services and features within the Abri ecosystem.</li>
-                </ol>
-              </p>
+                <li>
+                  <strong>Staking Rewards: </strong>Holders can stake AI tokens
+                  to earn rewards in the form of additional AI tokens and
+                  participate in network governance.
+                </li>
+                <li>
+                  <strong>Governance: </strong>Token holders will have the
+                  ability to participate in decision-making processes related to
+                  upgrades, proposals, and other protocol changes
+                </li>
+                <li>
+                  <strong>Platform Access: </strong>AI tokens can grant access
+                  to AI-based services and features within the Abri ecosystem.
+                </li>
+              </ul>
               <a
                 href=""
                 className="btn btn-default btn-radius video animation"

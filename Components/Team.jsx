@@ -13,38 +13,50 @@ const Team = () => {
             Meet Our Team
           </h4>
         </div>
-        <div class="bootstrap snippets bootdey">
-          <div class="row">
-            <div class="col-md-4">
-              <a class="cta text-center" href="#/">
-                <h3 class="name">
+        <div className="bootstrap snippets bootdey">
+          <div className="row">
+            <div className="col-md-4">
+              <a className="cta text-center" href="#/">
+                <h3 className="name">
                   <b>Muhammad</b>
                 </h3>
-                <img alt="" class="img-responsive" src="assets/images/mr.jpg" />
+                <img
+                  alt=""
+                  className="img-responsive"
+                  src="assets/images/mr.jpg"
+                />
                 <h2>Designer</h2>
                 <div className="title_default_light title_border">
                   <p>Adventure time</p>
                 </div>
               </a>
             </div>
-            <div class="col-md-4">
-              <a class="cta text-center" href="#/">
-                <h3 class="name">
+            <div className="col-md-4">
+              <a className="cta text-center" href="#/">
+                <h3 className="name">
                   <b>Abdul Rameez</b>
                 </h3>
-                <img alt="" class="img-responsive" src="assets/images/r.jpg" />
+                <img
+                  alt=""
+                  className="img-responsive"
+                  src="assets/images/r.jpg"
+                />
                 <h2>Developer</h2>
                 <div className="title_default_light title_border">
                   <p>Adventure time</p>
                 </div>
               </a>
             </div>
-            <div class="col-md-4">
-              <a class="cta text-center" href="#/">
-                <h3 class="name">
+            <div className="col-md-4">
+              <a className="cta text-center" href="#/">
+                <h3 className="name">
                   <b>Muzammil Mahboob</b>
                 </h3>
-                <img alt="" class="img-responsive" src="assets/images/mm.jpg" />
+                <img
+                  alt=""
+                  className="img-responsive"
+                  src="assets/images/mm.jpg"
+                />
                 <h2>Tester</h2>
                 <div className="title_default_light title_border">
                   <p>Adventure time</p>
