@@ -8,7 +8,7 @@ const TokenSale = () => {
     <section
       id="token"
       className="section-token token-sale bg-light-dark"
-      data-z-Index="1"
+      data-z-index="1"
       data-parallax="scroll"
       data-image-src="assets/images/token_bg.png"
     >

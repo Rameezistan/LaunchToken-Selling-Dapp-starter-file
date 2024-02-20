@@ -51,7 +51,7 @@ const Header = ({ address, setAddress, connectWallet }) => {
           </a>
 
           <button
-            className="navbar-toggler animation"
+            className="navbar-toggle animation"
             type="button"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
