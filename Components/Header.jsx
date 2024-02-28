@@ -39,12 +39,12 @@ const Header = ({ address, setAddress, connectWallet }) => {
             className="navbar-brand page-scroll"
           >
             <img
-              src="../public/assets/images/logo.svg"
+              src="assets/images/logo.png"
               alt="logo"
               className="logo-light"
             />
             <img
-              src="../public/assets/images/logo.svg"
+              src="assets/images/logo.png"
               alt="logo"
               className="logo_dark"
             />
