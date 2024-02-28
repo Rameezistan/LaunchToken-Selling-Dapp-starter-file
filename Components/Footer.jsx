@@ -34,7 +34,7 @@ const Footer = () => {
             <ul className="footer_link">
               {
                 footerList.map((list, i)=>(
-                  <li className="animation" data-animation="fadeInUp" data-animation-delay={`0.${i+2}s`}
+                  <li key={list} className="animation" data-animation="fadeInUp" data-animation-delay={`0.${i+2}s`}
                   >
                     <a href="#">{list}</a>
                   </li>
