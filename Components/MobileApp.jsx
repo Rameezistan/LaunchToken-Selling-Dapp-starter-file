@@ -20,24 +20,21 @@ const MobileApp = () => {
                 data-animation="fadeInUp"
                 data-animation-delay="0.2s"
               >
-                Download Mobile App
+                How to Join the Abri Presale
               </h4>
               <p
                 className="animation"
                 data-animation="fadeInUp"
                 data-animation-delay="0.2s"
               >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
-                ipsam expedita quam ratione culpa porro, molestiae dignissimos
-                impedit aut id odit.
+                The Abri presale is your chance to secure $AI before the token launch. You can buy with crypto or bank card, plus you can stake your tokens to earn rewards during the presale.
               </p>
               <p
                 className="animation"
                 data-animation="fadeInUp"
                 data-animation-delay="0.2s"
               >
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum
-                error officia unde quisquam quae quasi dolor recusandae quas.
+                Once the presale is concluded, you’ll be able to claim your tokens, either on the claim date or 7 days later if your tokens are staked.
               </p>
             </div>
 
@@ -46,13 +43,8 @@ const MobileApp = () => {
               data-animation="fadeInUp"
               data-animation-delay="0.6s"
             >
-              <a href="" className="btn btn-default btn-radius">
-                <AiFillAndroid className="new_font_size" />
-                Google Store
-              </a>
-              <a href="" className="btn btn-default btn-radius">
-                <IoLogoApple className="new_font_size" />
-                Apple Store
+              <a href="#" className="btn btn-default btn-radius">
+                Buy Now
               </a>
             </div>
           </div>

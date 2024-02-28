@@ -106,10 +106,10 @@ const TokenSale = () => {
                       aria-valuemin={"0"}
                       aria-valuemax={"100"}
                       style={{
-                        width: 80,
+                        width: 23,
                       }}
                     >
-                      30%
+                      9%
                     </div>
 
                     <span className="progress_label bg-white inline_style_1">
