@@ -9,7 +9,7 @@ import Faq from "./Faq";
 import Footer from "./Footer";
 import Header from "./Header";
 import Loader from "./Loader";
-import MobileApp from "./MobileApp";
+import HowtoJoin from "./HowtoJoin";
 import Service from "./Service";
 import Team from "./Team";
 // import Timeline from "./Timeline";
@@ -27,7 +27,7 @@ export {
   Footer,
   Header,
   Loader,
-  MobileApp,
+  HowtoJoin,
   Service,
   Team,
   // Timeline,

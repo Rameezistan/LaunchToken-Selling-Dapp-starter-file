@@ -13,7 +13,7 @@ import {
   Footer,
   Header,
   Loader,
-  MobileApp,
+  HowtoJoin,
   Service,
   Team,
   Timeline,
@@ -32,7 +32,7 @@ const index = () => {
       <About />
       <TokenSale />
       <Distribution />
-      <MobileApp />
+      <HowtoJoin />
       <Team />
       <Faq />
       <Contact />

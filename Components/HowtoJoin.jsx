@@ -2,7 +2,7 @@ import React from "react";
 import { IoLogoApple } from "react-icons/io";
 import { AiFillAndroid } from "react-icons/ai";
 
-const MobileApp = () => {
+const HowtoJoin = () => {
   return (
     <section
       id="mobileapp"
@@ -13,7 +13,7 @@ const MobileApp = () => {
     >
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-7 col-md-12 col-sm-12">
+          <div className="col-lg-6 col-md-12 col-sm-12 ">
             <div className="title_default_light title_border text_md_center">
               <h4
                 className="animation"
@@ -49,19 +49,36 @@ const MobileApp = () => {
             </div>
           </div>
 
-          <div className="col-lg-5 col-md-12 col-sm-12">
-            <div
-              className="res_md_mt_50 res_sm_mt_30 text-center animation"
-              data-animation="fadeInRight"
-              data-animation-delay="0.2s"
-            >
-              <img src="assets/images/mobile_app3.png" alt="" />
-            </div>
-          </div>
+          <div className="row col-lg-6">
+              <div k className="col-lg-6 col-md-6 col-sm-12">
+                <div className="box_wrap animation" data-animation="fadeInUp" data-animation-delay="0.6s">
+                <h4>Buy With Crypto</h4>
+                <p>Buy Abri tokens with BNB. Make sure you have enough BNB to cover gas.</p>
+                </div>
+              </div>
+              <div k className="col-lg-6 col-md-6 col-sm-12">
+                <div className="box_wrap animation" data-animation="fadeInUp" data-animation-delay="0.6s">
+                <h4>Buy with card</h4>
+                <p>Buy $ABRI tokens using your bank card. Check the buy flow for the fees.</p>
+                </div>
+              </div>
+              <div k className="col-lg-6 col-md-6 col-sm-12">
+                <div className="box_wrap animation" data-animation="fadeInUp" data-animation-delay="0.6s">
+                <h4>Stake $ABRI</h4>
+                <p>Stake your tokens either when you’re buying or on the staking dashboard. Earn rewards now!</p>
+                </div>
+              </div>
+              <div k className="col-lg-6 col-md-6 col-sm-12">
+                <div className="box_wrap animation" data-animation="fadeInUp" data-animation-delay="0.6s">
+                <h4>Claim $ABRI</h4>
+                <p>Claim your $ABRI tokens on claim day! This will happen once the presale has ended.</p>
+                </div>
+              </div>
+        </div>
         </div>
       </div>
     </section>
   );
 };
 
-export default MobileApp;
+export default HowtoJoin;
