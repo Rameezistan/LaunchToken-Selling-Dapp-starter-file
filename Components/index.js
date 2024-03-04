@@ -14,7 +14,6 @@ import Service from "./Service";
 import Team from "./Team";
 // import Timeline from "./Timeline";
 import TokenSale from "./TokenSale";
-
 export {
   About,
   ArrowUp,

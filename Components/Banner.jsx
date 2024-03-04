@@ -44,7 +44,7 @@ const Banner = () => {
                   Whitepaper &nbsp;
                   <BsArrowRight />
                 </a>
-                <a href="#token" className="btn btn-border btn-radius">
+                <a href="BuyToken\index.html" className="btn btn-border btn-radius">
                   {" "}
                   Buy Token Now! <BsArrowRight />
                   {/* <a className="btn btn-border btn-radius"> Transfer Token <BsArrowRight /> */}

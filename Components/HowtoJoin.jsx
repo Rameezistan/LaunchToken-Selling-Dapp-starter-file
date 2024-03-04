@@ -43,7 +43,7 @@ const HowtoJoin = () => {
               data-animation="fadeInUp"
               data-animation-delay="0.6s"
             >
-              <a href="#" className="btn btn-default btn-radius">
+              <a href="BuyToken\index.html" className="btn btn-default btn-radius">
                 Buy Now
               </a>
             </div>

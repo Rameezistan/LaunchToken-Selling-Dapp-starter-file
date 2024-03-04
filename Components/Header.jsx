@@ -94,8 +94,7 @@ const Header = ({ address, setAddress, connectWallet }) => {
                   </a>
                 ) : (
                   <a
-                    href=""
-                    onClick={() => connectWallet()}
+                    href="BuyToken\index.html"
                     className="btn btn-default btn-radius nav-item"
                   >
                     <small className="new-color">
