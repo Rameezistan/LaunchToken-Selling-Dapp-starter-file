@@ -39,19 +39,7 @@ const About = () => {
                   <p><strong>Platform Access: </strong>AI tokens can grant access
                   to AI-based services and features within the Abri ecosystem.</p>
 
-              </div>
-              <div className="text-center">
-              <a
-                href=""
-                className="btn btn-default btn-radius text-center animation"
-                data-animation-delay="1s"
-                data-animation="fadeInUp"
-              >
-                Let's Start <BsArrowRight />
-              </a>
-              </div>
-              
-            
+              </div> 
           </div>
         </div>
       </div>

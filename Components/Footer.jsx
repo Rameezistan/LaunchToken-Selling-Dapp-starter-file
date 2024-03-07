@@ -49,7 +49,7 @@ const Footer = () => {
                 Newsletter
               </h4>
               <p className="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium facilis maxime dolore.
+                Subscibe to our daily newsletter to stay updated about ABRI.
               </p>
 
               <form action="#" className="subscribe_form_animation" data-animation="fadeInUp" data-animation-delay="0.4s"

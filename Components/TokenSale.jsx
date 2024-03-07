@@ -149,14 +149,14 @@ const TokenSale = () => {
                 data-animation="fadeInUp"
                 data-animation-delay="0.2s"
               >
-                Low - High 24 h:
-              </h6>
+              Price / Abri:
+                </h6>
               <p
                 className="animation"
                 data-animation="fadeInUp"
                 data-animation-delay="0.2s"
-              >
-                $100 - $1000
+                >
+                1 bnb = 300000 abri
               </p>
             </div>
             <div className="pr_box">
@@ -165,14 +165,14 @@ const TokenSale = () => {
                 data-animation="fadeInUp"
                 data-animation-delay="0.2s"
               >
-                Total Tokens Sale
+                Tokens Allocated:
               </h6>
               <p
                 className="animation"
                 data-animation="fadeInUp"
                 data-animation-delay="0.2s"
               >
-                 ABRI 40%
+                 ABRI 30%
               </p>
             </div>
             <div className="pr_box">
