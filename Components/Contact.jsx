@@ -14,7 +14,7 @@ const Contact = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-8 col-md-12 offset-lg-2">
-            <div className="title-default_light title_border text-center">
+            <div className="title_default_light title_border text-center">
               <h4
                 className="animation"
                 data-animation="fadeInUp"
@@ -46,7 +46,8 @@ const Contact = () => {
                   data-animation="fadeInUp"
                   data-animation-delay="0.2s"
                 >
-                  If you have any query regarding token selling or any further issue, Feel free to contact us. We're here to help.
+                  If you have any query regarding token selling or any further
+                  issue, Feel free to contact us. We're here to help.
                 </p>
               </div>
 
@@ -59,7 +60,11 @@ const Contact = () => {
                   <i className="ion-ios-email"></i>
                   <div className="contact_detail">
                     <span>Email</span>
-                    <p><a href="mailto:contact@abricoin.org">contact@abricoin.org</a></p>
+                    <p>
+                      <a href="mailto:contact@abricoin.org">
+                        contact@abricoin.org
+                      </a>
+                    </p>
                   </div>
                 </li>
               </ul>

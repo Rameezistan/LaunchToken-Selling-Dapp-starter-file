@@ -66,7 +66,7 @@ const Distribution = () => {
             data-animation="fadeInRight"
             data-animation-delay="0.2s"
           >
-            <img src="assets/images/distribution3.png" alt="" />
+            <img src="assets/images/distribution31.png" alt="" />
           </div>
           <div className="divider small_divider"></div>
           <ul className="list_none list_chart text-center">

@@ -190,8 +190,8 @@ input {
 }
 
 button {
-  background-image: -webkit-linear-gradient(left, #ff67cb 0%, #ffcc67 99%);
-  background-image: linear-gradient(to right, #ff67cb 0%, #ffcc67 99%);
+  background-image: -webkit-linear-gradient(left, #01edff 0%, #01edff 99%);
+  background-image: linear-gradient(to right, #01edff 0%, #01edff 99%);
   border: 0;
   border-radius: 40px;
   color: #ffffff;
@@ -221,7 +221,9 @@ button:focus {
   text-transform: capitalize;
 }
 
-.title_default_light h4,
+.title_default_light h4 {
+  color: #01edff;
+}
 .title_default_light p {
   color: #fff;
 }
@@ -333,7 +335,7 @@ button:focus {
 
 .bg_black_dark,
 .v_dark {
-  background-color: #0c0e27;
+  background-color: #08071b;
 }
 
 .blue_light_bg,
@@ -417,8 +419,8 @@ button:focus {
 }
 
 .gradient_box {
-  background: -webkit-linear-gradient(left, #ff67cb 0%, #ffcc67 99%) !important;
-  background: linear-gradient(to right, #ff67cb 0%, #ffcc67 99%) !important;
+  background: -webkit-linear-gradient(left, #01edff 0%, #01edff 99%) !important;
+  background: linear-gradient(to right, #01edff 0%, #01edff 99%) !important;
 }
 
 .gradient_box2 {
@@ -812,8 +814,8 @@ button:focus {
 }
 
 .default {
-  background-image: -webkit-linear-gradient(left, #ff67cb 0%, #ffcc67 99%);
-  background-image: linear-gradient(to right, #ff67cb 0%, #ffcc67 99%);
+  background-image: -webkit-linear-gradient(left, #01edff 0%, #01edff 99%);
+  background-image: linear-gradient(to right, #01edff 0%, #01edff 99%);
 }
 
 .green {
@@ -846,7 +848,7 @@ button:focus {
 .btn {
   border: 0 none;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   height: 54px;
   line-height: 54px;
@@ -863,7 +865,7 @@ button:focus {
 .btn span {
   background: #5957cd none repeat scroll 0 0;
   border-radius: 100%;
-  color: #ffffff;
+  color: #08071b;
   display: inline-block;
   font-size: 20px;
   height: 35px;
@@ -944,11 +946,11 @@ button:focus {
 .btn:active:not(:disabled):not(.disabled) {
   background-image: -webkit-linear-gradient(
     left,
-    #ff67cb 0%,
-    #ffcc67 51%,
-    #ff67cb
+    #01edff 0%,
+    #01edff 51%,
+    #01edff
   );
-  background-image: linear-gradient(to right, #ff67cb 0%, #ffcc67 51%, #ff67cb);
+  background-image: linear-gradient(to right, #01edff 0%, #ff67cb 51%, #01edff);
   box-shadow: none;
   outline: none;
 }
@@ -957,13 +959,13 @@ button:focus {
   background-size: 200% auto;
   background-image: -webkit-linear-gradient(
     left,
-    #ff67cb 0%,
-    #ffcc67 51%,
-    #ff67cb
+    #01edff 0%,
+    #01edff 51%,
+    #01edff
   );
-  background-image: linear-gradient(to right, #ff67cb 0%, #ffcc67 51%, #ff67cb);
+  background-image: linear-gradient(to right, #01edff 0%, #ff67cb 51%, #01edff);
   border: 0;
-  color: #fff;
+  color: #08071b;
   outline: none;
   text-transform: uppercase;
   z-index: 2;
@@ -976,7 +978,7 @@ button:focus {
 
 .btn-default:hover,
 .btn-border:hover {
-  color: #fff;
+  color: #08071b;
 }
 
 .btn-default.active.focus,
@@ -992,19 +994,19 @@ button:focus {
 .btn:active:not(:disabled):not(.disabled) {
   background-image: -webkit-linear-gradient(
     left,
-    #ffcc67 0%,
-    #ff67cb 51%,
-    #ffcc67
+    #01edff 0%,
+    #01edff 51%,
+    #01edff
   );
-  background-image: linear-gradient(to right, #ffcc67 0%, #ff67cb 51%, #ffcc67);
+  background-image: linear-gradient(to right, #01edff 0%, #01edff 51%, #01edff);
   box-shadow: none;
   color: #fff;
   outline: none;
 }
 
 .btn-border {
-  background-image: -webkit-linear-gradient(left, #ffcc67 0%, #ff67cb 99%);
-  background-image: linear-gradient(to right, #ffcc67 0%, #ff67cb 99%);
+  background-image: -webkit-linear-gradient(left, #01edff 0%, #01edff 99%);
+  background-image: linear-gradient(to right, #01edff 0%, #01edff 99%);
   border: 0;
   color: #fff;
   outline: none;
@@ -1058,8 +1060,8 @@ button:focus {
 .btn.btn-border:active,
 .btn.btn-border.focus:active,
 .btn.btn-border:focus {
-  background-image: -webkit-linear-gradient(left, #ffcc67 0%, #ff67cb 99%);
-  background-image: linear-gradient(to right, #ffcc67 0%, #ff67cb 99%);
+  background-image: -webkit-linear-gradient(left, #01edff 0%, #01edff 99%);
+  background-image: linear-gradient(to right, #01edff 0%, #01edff 99%);
 }
 
 .btn i {
@@ -1392,6 +1394,10 @@ header .navbar-nav a {
   color: #ffffff;
 }
 
+.new-color {
+  color: #08071b;
+}
+
 .navbar-expand-lg .navbar-nav > li {
   padding: 0 12px;
 }
@@ -1403,7 +1409,7 @@ header .navbar-nav a {
 header a:hover,
 .navbar-nav li a.active,
 .navbar-nav .dropdown-menu li.active a {
-  color: #ff69c9;
+  color: #01edff;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -1891,8 +1897,8 @@ header a:hover,
 }
 
 .tk_counter_inner .progress-bar.gradient {
-  background: -webkit-linear-gradient(left, #ff67cb 0%, #ffcc67 99%);
-  background: linear-gradient(to right, #ff67cb 0%, #ffcc67 99%);
+  background: -webkit-linear-gradient(left, #01edff 0%, #01edff 99%);
+  background: linear-gradient(to right, #01edff 0%, #01edff 99%);
 }
 
 .banner_rounded_bg {
@@ -2169,7 +2175,7 @@ header a:hover,
 
 .box_wrap h4,
 .work_inner h4 {
-  color: #7a7a7a;
+  color: #01edff;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -2485,7 +2491,7 @@ header a:hover,
 
 .presale_txt mark {
   border-radius: 4px;
-  color: #fff;
+  color: #08071b;
   padding: 0 8px;
 }
 
@@ -2496,11 +2502,14 @@ header a:hover,
 .v_blue_pro .box_wrap h4,
 .v_blue_pro .box_wrap p,
 .v_dark .box_wrap h4,
-.v_dark .box_wrap p,
 .v_royal_blue .box_wrap h4,
 .v_royal_blue .box_wrap p,
 .v_navy_blue .box_wrap h4,
 .v_navy_blue .box_wrap p {
+  color: #01edff;
+}
+
+.v_dark .box_wrap p {
   color: #ffffff;
 }
 
@@ -2664,7 +2673,7 @@ header a:hover,
 }
 
 .video_wrap::before {
-  border: 3px solid #ff67cb;
+  border: 3px solid #01edff;
   border-radius: 10px;
   bottom: 30px;
   content: "";
@@ -3036,7 +3045,7 @@ header a:hover,
 }
 
 .chart_list_info li p span {
-  color: #ffcc67;
+  color: #01edff;
 }
 
 .token_info {
@@ -3786,7 +3795,7 @@ header a:hover,
 }
 
 .rd_complete .roadmap_icon {
-  background-color: #ff67cb;
+  background-color: #01edff;
 }
 
 .roadmap_icon::before {
@@ -3830,12 +3839,12 @@ header a:hover,
 
 .roadmap_box.current .roadmap_inner,
 .timeline_box.current .timeline_inner {
-  background-color: #ff67cb;
+  background-color: #01edff;
 }
 
 .roadmap_box.current .roadmap_inner::before,
 .timeline_box.current .timeline_inner::before {
-  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #ff67cb;
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #01edff;
   border-style: solid;
   border-width: 0 8px 8px;
   content: "";
@@ -3889,7 +3898,7 @@ header a:hover,
 
 .roadmap .owl-nav i:hover,
 .timeline .owl-nav i:hover {
-  background-color: #ff67cb;
+  background-color: #01edff;
   color: #fff;
 }
 
@@ -4024,7 +4033,7 @@ header a:hover,
 }
 
 .single_roadmap.roadmap_done .roadmap_icon {
-  background-color: #ff67cb;
+  background-color: #01edff;
 }
 
 .box_roadmap {
@@ -4068,7 +4077,7 @@ header a:hover,
 }
 
 .box_roadmap .roadmap_inner::after {
-  background-color: #ff67cb;
+  background-color: #01edff;
   border-radius: 100%;
   content: "";
   height: 10px;
@@ -4122,7 +4131,7 @@ header a:hover,
 }
 
 .roadmap_wrap .owl-nav i:hover {
-  color: #ff67cb;
+  color: #01edff;
 }
 
 .roadmap_wrap .owl-prev,
@@ -4319,9 +4328,9 @@ header a:hover,
 }
 
 .timeline_box.complete .timeline_circle::before {
-  border-color: #ff67cb;
+  border-color: #01edff;
   margin: -8px;
-  background-color: #ff67cb;
+  background-color: #01edff;
   z-index: -1;
 }
 
@@ -4330,7 +4339,7 @@ header a:hover,
   position: absolute;
   left: -50%;
   top: -30px;
-  background-color: #ff67cb;
+  background-color: #01edff;
   height: 5px;
   z-index: -2;
   width: 110%;
@@ -4570,8 +4579,8 @@ header a:hover,
 }
 
 .team_img.gradient_box::before {
-  background-image: -webkit-linear-gradient(left, #ff67cb 0%, #ffcc67 99%);
-  background-image: linear-gradient(to right, #ff67cb 0%, #ffcc67 99%);
+  background-image: -webkit-linear-gradient(left, #01edff 0%, #01edff 99%);
+  background-image: linear-gradient(to right, #01edff 0%, #01edff 99%);
 }
 
 .team_img.rounded_img.gradient_box {
@@ -4636,7 +4645,7 @@ header a:hover,
 }
 
 .social_team a:hover {
-  color: #ff67cb;
+  color: #01edff;
 }
 
 .gradient_box .social_team a:hover {
@@ -4726,8 +4735,8 @@ header a:hover,
 }
 
 .team_pop .progress-bar {
-  background-image: -webkit-linear-gradient(left, #ff67cb 0%, #ffcc67 99%);
-  background-image: linear-gradient(to right, #ff67cb 0%, #ffcc67 99%);
+  background-image: -webkit-linear-gradient(left, #01edff 0%, #01edff 99%);
+  background-image: linear-gradient(to right, #01edff 0%, #01edff 99%);
 }
 
 .team_wrap .team_info h4 a {
@@ -4784,8 +4793,8 @@ header a:hover,
 }
 
 .team_social_s2 {
-  background-image: -webkit-linear-gradient(top, #ff67cb 0%, #ffcc67 99%);
-  background-image: linear-gradient(to bottom, #ff67cb 0%, #ffcc67 99%);
+  background-image: -webkit-linear-gradient(top, #01edff 0%, #01edff 99%);
+  background-image: linear-gradient(to bottom, #01edff 0%, #01edff 99%);
   position: absolute;
   right: -15px;
   top: 50%;
@@ -5350,8 +5359,8 @@ header a:hover,
 }
 
 .faq_content4 .card-header a::after {
-  background-image: -webkit-linear-gradient(left, #ff67cb 0%, #ffcc67 99%);
-  background-image: linear-gradient(to right, #ff67cb 0%, #ffcc67 99%);
+  background-image: -webkit-linear-gradient(left, #01edff 0%, #01edff 99%);
+  background-image: linear-gradient(to right, #01edff 0%, #01edff 99%);
   border-radius: 100%;
   color: #ffffff;
   content: "\f208";
@@ -5613,7 +5622,7 @@ header a:hover,
 .v_light_blue_pro .nav-item a.active,
 .v_navy_blue .nav-item a:hover,
 .v_navy_blue .nav-item a.active {
-  color: #ff67cb;
+  color: #01edff;
 }
 
 .v_blue_pro .tab-link {
@@ -7008,7 +7017,7 @@ button.btn-white:hover {
 
 .v_dark .blog_text > a,
 .v_dark .blog_meta a i {
-  color: #ffcc67;
+  color: #01edff;
 }
 
 .v_dark .owl-theme .owl-dots .owl-dot span,
@@ -7550,7 +7559,7 @@ button.btn-white:hover {
 
 .dl_lan li a {
   background-color: #071890;
-  border-bottom: 2px solid #ffcc67;
+  border-bottom: 2px solid #01edff;
   color: #ffffff;
   display: block;
   font-size: 15px;
@@ -7861,4 +7870,8 @@ button.btn-white:hover {
 
 span.statcounter {
   display: none;
+}
+
+.headingcolor {
+  color: #01edff;
 }
