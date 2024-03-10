@@ -1,7 +1,6 @@
 p {
   text-align: center;
   color: rgb(77, 154, 187);
-  
 }
 
 /*================================
@@ -10,7 +9,7 @@ p {
 .navbar {
   display: flex;
   justify-content: center;
-  padding: 0;
+  padding: 25px 10px;
   z-index: 101;
 }
 
@@ -63,7 +62,7 @@ p {
   color: var(--c_salmon);
 }
 
-.navbar .form-check-input~label {
+.navbar .form-check-input ~ label {
   background-color: var(--c_indigo);
   border-radius: 2em;
   filter: var(--filter_dropShadow);
@@ -82,7 +81,7 @@ p {
   transition: all 0.3s ease-in-out;
 }
 
-.navbar .form-check-input~label .line {
+.navbar .form-check-input ~ label .line {
   width: 25px;
   height: 2px;
   background-color: var(--c_white);
@@ -96,13 +95,12 @@ p {
 /* .navbar .form-check-input ~ label .line:last-child {
   margin-bottom: 0;
 } */
-.navbar .form-check-input:checked~label {
+.navbar .form-check-input:checked ~ label {
   animation: smallbig 0.6s forwards;
   -webkit-animation: smallbig 0.6s forwards;
 }
 
 @keyframes smallbig {
-
   0%,
   100% {
     -webkit-transform: scale(1);
@@ -119,39 +117,48 @@ p {
   }
 }
 
-.navbar .form-check-input:checked~label .line:nth-child(1),
-.navbar .form-check-input:checked~label .line:nth-child(2),
-.navbar .form-check-input:checked~label .line:nth-child(3) {
+.navbar .form-check-input:checked ~ label .line:nth-child(1),
+.navbar .form-check-input:checked ~ label .line:nth-child(2),
+.navbar .form-check-input:checked ~ label .line:nth-child(3) {
   -webkit-transition-delay: 0.2s;
   -o-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
 
-.navbar .form-check-input:checked~label .line:nth-child(2) {
+.navbar .form-check-input:checked ~ label .line:nth-child(2) {
   opacity: 0;
 }
 
-.navbar .form-check-input:checked~label .line:nth-child(1) {
+.navbar .form-check-input:checked ~ label .line:nth-child(1) {
   -webkit-transform: translateY(7px) rotate(45deg);
   -ms-transform: translateY(7px) rotate(45deg);
   -o-transform: translateY(7px) rotate(45deg);
   transform: translateY(7px) rotate(45deg);
 }
 
-.navbar .form-check-input:checked~label .line:nth-child(3) {
+.navbar .form-check-input:checked ~ label .line:nth-child(3) {
   -webkit-transform: translateY(-7px) rotate(-45deg);
   -ms-transform: translateY(-7px) rotate(-45deg);
   -o-transform: translateY(-7px) rotate(-45deg);
   transform: translateY(-7px) rotate(-45deg);
 }
 
-#sky{
+#sky {
   position: relative;
   margin-top: 3%;
-  
 }
 
-
+.footer {
+  background-color: #0c0e27;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer,
+p {
+  color: aliceblue;
+}
 
 /*================================
   Navbar Style End

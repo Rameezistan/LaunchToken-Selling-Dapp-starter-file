@@ -9,7 +9,7 @@ const About = () => {
           <div className="col-lg-6 col-md-12 col-sm-12">
             <div className="text-md-center">
               <img
-                src="assets/images/about_img2.png"
+                src="assets/images/222.svg"
                 alt=""
                 data-animation="zoomIn"
                 data-animation-delay="0.2s"
@@ -28,19 +28,24 @@ const About = () => {
               >
                 TOKEN UTILITY
               </h4>
-              </div>
-              <div className="title_default_light">
-              <p><strong>Staking Rewards: </strong>Holders can stake AI tokens
-                  to earn rewards in the form of additional AI tokens and
-                  participate in network governance.</p>
-                  <p><strong>Governance: </strong>Token holders will have the
-                  ability to participate in decision-making processes related to
-                  upgrades, proposals, and other protocol changes</p>
-                  <p><strong>Platform Access: </strong>AI tokens can grant access
-                  to AI-based services and features within the Abri ecosystem.</p>
-
-              </div>
-              <div className="text-center">
+            </div>
+            <div className="title_default_light">
+              <p>
+                <strong>Staking Rewards: </strong>Holders can stake AI tokens to
+                earn rewards in the form of additional AI tokens and participate
+                in network governance.
+              </p>
+              <p>
+                <strong>Governance: </strong>Token holders will have the ability
+                to participate in decision-making processes related to upgrades,
+                proposals, and other protocol changes
+              </p>
+              <p>
+                <strong>Platform Access: </strong>AI tokens can grant access to
+                AI-based services and features within the Abri ecosystem.
+              </p>
+            </div>
+            <div className="text-center">
               <a
                 href=""
                 className="btn btn-default btn-radius text-center animation"
@@ -49,9 +54,7 @@ const About = () => {
               >
                 Let's Start <BsArrowRight />
               </a>
-              </div>
-              
-            
+            </div>
           </div>
         </div>
       </div>

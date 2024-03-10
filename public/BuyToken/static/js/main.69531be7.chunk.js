@@ -202,15 +202,15 @@
                                     borderRadius: "0px",
                                     sx: {
                                         cursor: "pointer",
-                                        boxShadow: "#ffffff 0px 0px 8px 1px",
+                                        boxShadow: "#01EDFF 0px 0px 8px 1px",
                                         background: "transparent",
                                         borderBottom: "5px solid #FFCA69"
                                     },
                                     display: "flex",
-                                    fontFamily: "Chakra Petch",
+                                    fontFamily: "'Trebuchet MS', sans-serif",
                                     justifyContent: "center",
                                     alignItems: "center",
-                                    color: "#ffffff",
+                                    color: "red",
                                     fontWeight: "500",
                                     fontSize: "16px",
                                     onClick: function() {
@@ -222,23 +222,24 @@
                                     style: {
                                         cursor: "pointer ",
                                         
-                                        background: "transparent",
-                                        backgroundImage: "linear-gradient(to right, rgb(242 103 57) 0%, #ef445d 51%, rgb(242 103 57) 100%)",
+                                       
+                                        background: "#01EDFF",
                                         
-                                        transition:" all 0.5s ease 0s",
+                                        
                                         
                                        
                                     },
+                                    
                                     position:"relative",
                                     left:"-9px",
                                     top:"-59px",
                                     width: "130px",
                                     height: "42px",
-                                    fontFamily: "'sans-serif',",
-                                    fontWeight: "500",
+                                    fontFamily: "'Trebuchet MS', sans-serif",
+                                    fontWeight: "600",
                                     borderRadius: "50px",
                                     fontSize: "15px",
-                                    color: "#ffffff",
+                                    color: "black",
                                     display: "flex",
                                     justifyContent: "center",
                                     alignItems: "center",
@@ -269,7 +270,7 @@
                     return n ? new R.b(e, t, n) : new R.b(e, t, _)
                 }), [e, t, n])
             }
-            var N = "static/media/A1.png",
+            var N = "static/media/A2.png",
                 L = "static/media/edye.png",
                 E = "",
                 D = "static/media/bnblogo.95c82668.svg",
@@ -417,7 +418,7 @@
                                 fontSize: e ? "30px" : "60px",
                                 fontWeight: "700",
                                 textAlign: "center",
-                                fontFamily: "Secular One",
+                                fontFamily: "'Trebuchet MS', sans-serif",
                                 bgcolor: "#0c0e27",
                                 mb: 2,
                                 children: i.time_days
@@ -427,7 +428,7 @@
                                 fontSize: e ? "15px" : "30px",
                                 fontWeight: "500",
                                 textAlign: "center",
-                                fontFamily: "Secular One",
+                                fontFamily: "'Trebuchet MS', sans-serif",
                                 children: "Days"
                             })]
                         }), Object(h.jsxs)(u.a, {
@@ -448,7 +449,7 @@
                                 fontSize: e ? "30px" : "60px",
                                 fontWeight: "700",
                                 textAlign: "center",
-                                fontFamily: "Secular One",
+                                fontFamily: "'Trebuchet MS', sans-serif",
                                 bgcolor: "#0c0e27",
                                 mb: 2,
                                 children: i.time_Hours
@@ -458,7 +459,7 @@
                                 fontSize: e ? "15px" : "30px",
                                 fontWeight: "500",
                                 textAlign: "center",
-                                fontFamily: "Secular One",
+                                fontFamily: "'Trebuchet MS', sans-serif",
                                 children: "Hours"
                             })]
                         }), Object(h.jsxs)(u.a, {
@@ -478,7 +479,7 @@
                                 borderBottom: "15px solid #FFCA69",
                                 fontSize: e ? "30px" : "60px",
                                 fontWeight: "700",
-                                fontFamily: "Secular One",
+                                fontFamily: "'Trebuchet MS', sans-serif",
                                 textAlign: "center",
                                 bgcolor: "#0c0e27",
                                 mb: 2,
@@ -489,7 +490,7 @@
                                 fontSize: e ? "15px" : "30px",
                                 fontWeight: "500",
                                 textAlign: "center",
-                                fontFamily: "Secular One",
+                                fontFamily: "'Trebuchet MS', sans-serif",
                                 children: "Minutes"
                             })]
                         }), Object(h.jsxs)(u.a, {
@@ -509,7 +510,7 @@
                                 fontSize: e ? "30px" : "60px",
                                 fontWeight: "700",
                                 textAlign: "center",
-                                fontFamily: "Secular One",
+                                fontFamily: "'Trebuchet MS', sans-serif",
                                 bgcolor: "#0c0e27",
                                 mb: 2,
                                 children: i.time_seconds
@@ -519,7 +520,7 @@
                                 fontSize: e ? "15px" : "30px",
                                 fontWeight: "500",
                                 textAlign: "center",
-                                fontFamily: "Secular One",
+                                fontFamily: "'Trebuchet MS', sans-serif",
                                 children: "Seconds"
                             })]
                         })]
@@ -675,19 +676,21 @@
                                 justifyContent: "center",
                                 alignItems: "center",
                                 flexDirection: "column",
+                                position:"relative",
+                                top:"-100px",
                                 children: [Object(h.jsxs)(u.a, {
                                     mb: 2,
                                     fontWeight: "10",
                                     fontSize: "25px",
                                     color: "#fffff",
-                                    fontFamily: "Segoe UI Black",
+                                    fontFamily: "'Trebuchet MS', sans-serif",
                                     textAlign: "center",
                                     children: [Object(h.jsx)("h3", {
                                         style: {
                                             color: "",
                                             fontSize: "30px"
                                         },
-                                        children: "Abri is an innovative fusion of cutting-edge AI technology and the transformative power of blockchain"
+                                        children: "Abri is an innovative fusion of Cutting-Edge AI technology and the transformative power of Blockchain"
                                     }), Object(h.jsx)("h3", {
                                         
                                     }),
@@ -735,10 +738,10 @@
                                             children: [Object(h.jsx)(u.a, {
                                                 fontWeight: "700",
                                                 fontSize: "25px",
-                                                color: "#ffffff",
+                                                color: "#01EDFF",
                                                 fontFamily: "'sans-serif',",
                                                 textAlign: "center",
-                                                children: "Buy ABRI Coin"
+                                                children: "BUY ABRI"
                                             }), Object(h.jsxs)(u.a, {
                                                 mt: 2,
                                                 mb: 2,
@@ -803,7 +806,7 @@
                                                             fontSize: "16px",
                                                             marginTop: "10px",
                                                             background: "transparent",
-                                                            boxShadow: "#ffffff 0px 0px 8px 1px",
+                                                            boxShadow: "#01EDFF 0px 0px 8px 1px",
                                                            
                                                             
                                                            
@@ -872,7 +875,7 @@
                                                             fontSize: "16px",
                                                             marginTop: "10px",
                                                             background:"transparent",
-                                                            boxShadow: "#ffffff 0px 0px 8px 1px",
+                                                            boxShadow: "#01EDFF 0px 0px 8px 1px",
                                                             
                                                         },
                                                         children: [" ", Object(h.jsx)("img", {
@@ -897,7 +900,7 @@
                                                     children: Object(h.jsx)(P.a, {
                                                         style: (e = {
                                                             background: "transparent"
-                                                        }, Object(S.a)(e, "background", "transparent"), Object(S.a)(e, "boxShadow", "#ffffff 0px 0px 8px 1px"), Object(S.a)(e, "fontSize", "18px"), Object(S.a)(e, "borderRadius", "50px"), Object(S.a)(e, "width", "176px"), Object(S.a)(e, "height", "45px"), Object(S.a)(e, "color", "#ffffff"), Object(S.a)(e, "textTransform", "capitalize"), Object(S.a)(e, "fontWeight", "500"), Object(S.a), e),
+                                                        }, Object(S.a)(e, "background", "#01EDFF"), Object(S.a)(e, "", ""), Object(S.a)(e, "fontSize", "18px"), Object(S.a)(e, "borderRadius", "50px"), Object(S.a)(e, "width", "176px"), Object(S.a)(e, "height", "45px"), Object(S.a)(e, "color", "#08071B"), Object(S.a)(e, "textTransform", "capitalize"), Object(S.a)(e, "fontWeight", "650"), Object(S.a), e),fontFamily: "'Trebuchet MS', sans-serif",
                                                         onClick: function() {
                                                             return V()
                                                         },
@@ -926,16 +929,16 @@
                                             children: [Object(h.jsx)(u.a, {
                                                 fontWeight: "700",
                                                 fontSize: "25px",
-                                                color: "#ffffff",
+                                                color: "#01EDFF",
                                                 fontFamily: "Poppins,sans-serif",
                                                 textAlign: "center",
-                                                children: "Token Info"
+                                                children: "TOKEN INFO"
                                             }), Object(h.jsxs)(u.a, {
                                                 mt: 2,
                                                 display: "flex",
                                                 alignItems: "center",
                                                 justifyContent: "space-between",
-                                                borderBottom: "1px solid #FFCA69",
+                                                borderBottom: "1px solid #01EDFF",
                                                 pb: 2,
                                                 children: [Object(h.jsx)(u.a, {
                                                     fontWeight: "600",
@@ -950,13 +953,13 @@
                                                     fontSize: "16px",
                                                     color: "#ffffff",
                                                     fontFamily: "Chakra Petch",
-                                                    children: "ABRI Coin Token"
+                                                    children: "ABRI Token"
                                                 })]
                                             }), Object(h.jsxs)(u.a, {
                                                 display: "flex",
                                                 alignItems: "center",
                                                 justifyContent: "space-between",
-                                                borderBottom: "1px solid #FFCA69",
+                                                borderBottom: "1px solid #01EDFF",
                                                 pb: 2,
                                                 mt: 2,
                                                 children: [Object(h.jsx)(u.a, {
@@ -978,7 +981,7 @@
                                                 display: "flex",
                                                 alignItems: "center",
                                                 justifyContent: "space-between",
-                                                borderBottom: "1px solid #FFCA69",
+                                                borderBottom: "1px solid #01EDFF",
                                                 pb: 2,
                                                 mt: 2,
                                                 children: [Object(h.jsx)(u.a, {
@@ -1000,7 +1003,7 @@
                                                 display: "flex",
                                                 alignItems: "center",
                                                 justifyContent: "space-between",
-                                                borderBottom: "1px solid #FFCA69",
+                                                borderBottom: "1px solid #01EDFF",
                                                 pb: 2,
                                                 mt: 2,
                                                 children: [Object(h.jsx)(u.a, {
@@ -1022,7 +1025,7 @@
                                                 display: "flex",
                                                 alignItems: "center",
                                                 justifyContent: "space-between",
-                                                borderBottom: "1px solid #FFCA69",
+                                                borderBottom: "1px solid #01EDFF",
                                                 pb: 2,
                                                 mt: 2,
                                                 children: [Object(h.jsx)(u.a, {
@@ -1044,7 +1047,7 @@
                                                 display: "flex",
                                                 alignItems: "center",
                                                 justifyContent: "space-between",
-                                                borderBottom: "1px solid #FFCA69",
+                                                borderBottom: "1px solid #01EDFF",
                                                 pb: 2,
                                                 mt: 2,
                                                 children: [Object(h.jsx)(u.a, {
@@ -1126,13 +1129,7 @@
                                                     children: "Enter the amount of BNB you want to buy "
                                                 })]
                                             })]
-                                        }), Object(h.jsx)("img", 
                                         
-                                        
-                                        
-                                        
-                                        
-                                        {
                                            
                                            
                                         

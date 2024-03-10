@@ -60,7 +60,7 @@ const Contact = () => {
                   <i className="ion-ios-email"></i>
                   <div className="contact_detail">
                     <span>Email</span>
-                    <p>
+                    <p className="footer_link">
                       <a href="mailto:contact@abricoin.org">
                         contact@abricoin.org
                       </a>
@@ -71,11 +71,11 @@ const Contact = () => {
 
               <div className="contact_follow pt-2 pt-md-4">
                 <span
-                  className="text-uppercase animation"
+                  className="text-uppercase headingcolor animation"
                   data-animation="fadeInUp"
                   data-animation-delay="0.2s"
                 >
-                  Follow Us &nbsp;
+                  <strong>Follow Us &nbsp;</strong>
                 </span>
                 <ul className="list_none social_icon">
                   <li

@@ -29,8 +29,8 @@ const Header = ({ address, setAddress, connectWallet }) => {
     },
   ];
   return (
-    <header className="header_wrap fixed-top">
-      <div className="container">
+    <header className="header_wrap fixed-top ">
+      <div className="container-fluid">
         <nav className="navbar navbar-expand-lg">
           <a
             href="#home_section"
@@ -97,10 +97,7 @@ const Header = ({ address, setAddress, connectWallet }) => {
                     href="BuyToken\index.html"
                     className="btn btn-default btn-radius nav-item"
                   >
-                    <small className="new-color">
-                      {""}
-                      Buy Now!
-                    </small>
+                    <small className="new-color">Buy Now!</small>
                   </a>
                 )}
               </li>

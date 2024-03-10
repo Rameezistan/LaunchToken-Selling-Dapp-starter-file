@@ -31,7 +31,10 @@ const Banner = () => {
                 data-animation="fadeInUp"
                 data-animation-delay="1.3s"
               >
-                Presale is <mark className="gradient_box">Live</mark>
+                Presale is{" "}
+                <mark className="gradient_box">
+                  <strong>Live</strong>
+                </mark>
               </h5>
 
               <div
@@ -60,30 +63,29 @@ const Banner = () => {
                 <div className="row m-0">
                   <div className="col-md-7">
                     <div className="pt-3 pb-3">
-                      <div className="title_dark title_border">
+                      <div className="text-center title_dark title_border">
                         <h4>Download Whitepaper</h4>
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Doloribus voluptatem officiis soluta quis nisi
-                          velit quos sint alias expedita amet consequuntur,
-                          dolorum commodi inventore odio minima? Maxime minima
-                          voluptatibus pariatur?
-                        </p>
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Doloribus voluptatem officiis soluta quis nisi
-                          velit quos sint alias expedita amet consequuntur,
-                          dolorum commodi inventore odio minima? Maxime minima
-                          voluptatibus pariatur?
-                        </p>
-
-                        <a
-                          href="#"
-                          className="btn btn-default btn-radius btn-block"
-                        >
-                          Download Now <AiOutlineCloudDownload />
-                        </a>
                       </div>
+                      <p>
+                        Discover the vision, technology, and roadmap shaping the
+                        future of decentralized finance with Abri's
+                        comprehensive whitepaper. Explore the fusion of
+                        blockchain and artificial intelligence, delve into our
+                        innovative ecosystem, and learn about our commitment to
+                        security, compliance, and user empowerment.
+                      </p>
+                      <p>
+                        Download the Abri Whitepaper now to unlock the potential
+                        of decentralized finance and join us on our journey
+                        towards financial inclusion and innovation.
+                      </p>
+
+                      <a
+                        href="#"
+                        className="btn btn-default btn-radius btn-block"
+                      >
+                        Download Now <AiOutlineCloudDownload />
+                      </a>
                     </div>
                   </div>
 
@@ -105,7 +107,7 @@ const Banner = () => {
               data-animation-delay="1.5s"
             >
               <img
-                src="assets/images/banner_img2.png"
+                src="assets/images/111.svg"
                 alt=""
                 className="new_image_css"
               />

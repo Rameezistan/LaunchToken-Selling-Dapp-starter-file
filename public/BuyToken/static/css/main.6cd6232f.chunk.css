@@ -36,20 +36,32 @@ svg #letters path {
 
     border: 2px solid rgba(213, 228, 13, 0);
     border-radius: 25px;
-    height: 800px;
-    max-height: 800px;
-    margin-top: 90px
+    height: 650px;
+    max-height: max-content;
+    margin-top: 90px;
+    position: relative;
+    top: -258px;
 }
 
 .How_details h3 {
     text-align: center;
     padding-bottom: 30px;
     padding-top: 30px;
+    
+    position: relative;
+    top: px;
 }
 
 .h2_class {
     text-align: center;
-    padding-top: 80px
+    padding-top: 0px;
+    position: relative;
+    top: -100px;
+    color: #01EDFF;
+    BORDER-RADIUS: 9PX;
+    
+    
+    
 }
 
 .desktop_view {
@@ -62,8 +74,9 @@ svg #letters path {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    margin-top: 50px;
-    
+    margin-top: -74px;
+    position: relative;
+    top: 30px;
 }
 
 
@@ -77,8 +90,8 @@ svg #letters path {
 
 @media screen and (max-width:600px) {
     .How_details {
-        height: 800px;
-        min-height: 1400px
+        height: 728px;
+        min-height: 860px
     }
 
     .How_details img {

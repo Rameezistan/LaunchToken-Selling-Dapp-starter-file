@@ -21,7 +21,7 @@ const Distribution = () => {
             data-animation-delay="0.2s"
           >
             <img
-              src="assets/images/sale-proceeds3.png"
+              src="assets/images/ICO1.webp"
               alt=""
               className="sale-proceeds3"
             />
@@ -30,23 +30,15 @@ const Distribution = () => {
           <ul className="list_none list_chart text-center">
             <li>
               <span className="chart_bx color1"></span>
-              <span>Addvisers</span>
+              <span>1 BNB = 300000 AI</span>
             </li>
             <li>
               <span className="chart_bx color2"></span>
-              <span>Marketing</span>
+              <span>1 BNB = 180000 AI</span>
             </li>
             <li>
               <span className="chart_bx color3"></span>
-              <span>Public Sale</span>
-            </li>
-            <li>
-              <span className="chart_bx color4"></span>
-              <span>Pre Sale</span>
-            </li>
-            <li>
-              <span className="chart_bx color5"></span>
-              <span>Projects</span>
+              <span>1 BNB = 85000 AI</span>
             </li>
           </ul>
         </div>
@@ -66,7 +58,7 @@ const Distribution = () => {
             data-animation="fadeInRight"
             data-animation-delay="0.2s"
           >
-            <img src="assets/images/distribution31.png" alt="" />
+            <img src="assets/images/ICO2.webp" alt="" />
           </div>
           <div className="divider small_divider"></div>
           <ul className="list_none list_chart text-center">
