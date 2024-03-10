@@ -21,8 +21,10 @@ const Banner = () => {
                 data-animation="fadeInUp"
                 data-animation-delay="1.1s"
               >
-              <strong>Abri  </strong> is an innovative fusion of cutting-edge <strong> AI technology</strong> and the transformative power of blockchain.
-
+                <strong className="headingcolor">Abri </strong> is an innovative
+                fusion of cutting-edge{" "}
+                <strong className="headingcolor"> AI technology</strong> and the
+                transformative power of blockchain.
               </h1>
               <h5
                 className="animation presale_txt text-white"
@@ -44,7 +46,10 @@ const Banner = () => {
                   Whitepaper &nbsp;
                   <BsArrowRight />
                 </a>
-                <a href="BuyToken\index.html" className="btn btn-border btn-radius">
+                <a
+                  href="BuyToken\index.html"
+                  className="btn btn-border btn-radius"
+                >
                   {" "}
                   Buy Token Now! <BsArrowRight />
                   {/* <a className="btn btn-border btn-radius"> Transfer Token <BsArrowRight /> */}
@@ -72,7 +77,10 @@ const Banner = () => {
                           voluptatibus pariatur?
                         </p>
 
-                        <a href="#" className="btn btn-default btn-radius">
+                        <a
+                          href="#"
+                          className="btn btn-default btn-radius btn-block"
+                        >
                           Download Now <AiOutlineCloudDownload />
                         </a>
                       </div>
