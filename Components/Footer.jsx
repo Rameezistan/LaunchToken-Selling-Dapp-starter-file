@@ -9,7 +9,7 @@ const Footer = () => {
         className="top_footer bg_light_dark"
         data-z-index="1"
         data-parallax="scroll"
-        data-image-src="assets/images/footer-bg.png"
+        data-image-src="assets/images/footer_bg.png"
       >
         <div className="container">
           <div className="row">
