@@ -29,15 +29,15 @@ const Distribution = () => {
           <div className="divider small_divider"></div>
           <ul className="list_none list_chart text-center">
             <li>
-              <span className="chart_bx color1"></span>
+              <span className="chart_bx color4"></span>
               <span>1 BNB = 300000 AI</span>
             </li>
             <li>
-              <span className="chart_bx color2"></span>
+              <span className="chart_bx color3"></span>
               <span>1 BNB = 180000 AI</span>
             </li>
             <li>
-              <span className="chart_bx color3"></span>
+              <span className="chart_bx color5"></span>
               <span>1 BNB = 85000 AI</span>
             </li>
           </ul>
@@ -64,23 +64,27 @@ const Distribution = () => {
           <ul className="list_none list_chart text-center">
             <li>
               <span className="chart_bx color1"></span>
-              <span>ICO Sale</span>
+              <span>ICO (Presale)</span>
             </li>
             <li>
               <span className="chart_bx color2"></span>
-              <span>Bulid Out</span>
+              <span>Liquidity Pool</span>
             </li>
             <li>
               <span className="chart_bx color3"></span>
-              <span>Team & Advisers</span>
+              <span>Ecosystem Development</span>
             </li>
             <li>
               <span className="chart_bx color4"></span>
-              <span>Private Investors</span>
+              <span>Team Allocation</span>
             </li>
             <li>
               <span className="chart_bx color5"></span>
-              <span>Bounty</span>
+              <span>Patnerships</span>
+            </li>
+            <li>
+              <span className="chart_bx color6"></span>
+              <span>Rewards</span>
             </li>
           </ul>
         </div>
