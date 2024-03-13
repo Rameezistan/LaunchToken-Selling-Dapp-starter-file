@@ -1101,6 +1101,9 @@
   .banner_section_s2 {
     padding-bottom: 30px;
   }
+  .btn_group .btn {
+    margin: 5px 0;
+  }
   .pr_box {
     margin-top: 25px;
   }
@@ -1225,6 +1228,10 @@
   .btn {
     font-size: 14px;
   }
+  .btn_group .btn {
+    margin: 5px 0;
+  }
+
   .h1,
   h1 {
     font-size: 1.3rem;
