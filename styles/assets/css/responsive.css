@@ -464,10 +464,10 @@
   .navbar-nav {
     -webkit-animation-name: none;
     animation-name: none;
-    border-right: 1px solid rgba(255, 255, 255, 0.6);
+    /* border-right: 1px solid rgba(255, 255, 255, 0.6); */
     float: left;
     text-align: center;
-    width: 50%;
+    width: 100%;
   }
   .navbar-nav:last-child {
     border: 0;
