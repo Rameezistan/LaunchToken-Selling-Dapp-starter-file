@@ -12,7 +12,7 @@ const Header = ({ address, setAddress, connectWallet }) => {
       Link: "#services",
     },
     {
-      menu: "About",
+      menu: "Token Utility",
       Link: "#about",
     },
     {
