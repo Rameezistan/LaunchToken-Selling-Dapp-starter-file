@@ -126,6 +126,9 @@
   section.small_pb {
     padding-bottom: 40px;
   }
+  .btn_group .btn {
+    margin: 5px 0;
+  }
   section.small_pt {
     padding-top: 40px;
   }
