@@ -1,4 +1,4 @@
-import About from "./About";
+import TokenUtility from "./TokenUtility";
 import ArrowUp from "./ArrowUp";
 import Banner from "./Banner";
 import Blog from "./Blog";
@@ -15,7 +15,7 @@ import Team from "./Team";
 // import Timeline from "./Timeline";
 import TokenSale from "./TokenSale";
 export {
-  About,
+  TokenUtility,
   ArrowUp,
   Banner,
   Blog,

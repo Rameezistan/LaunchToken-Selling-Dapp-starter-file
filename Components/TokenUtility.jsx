@@ -1,9 +1,9 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 
-const About = () => {
+const TokenUtility = () => {
   return (
-    <section id="about" className="small_pt">
+    <section id="token-utility" className="small_pt space">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-12 col-sm-12">
@@ -62,4 +62,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default TokenUtility;

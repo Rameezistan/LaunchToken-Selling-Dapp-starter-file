@@ -2,7 +2,32 @@ import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
-  const footerList = ["Home", "Services", "About", "FAQ", "Contact"];
+  const footerList = [
+    {
+      menu: "Home",
+      Link: "#",
+    },
+    {
+      menu: "Services",
+      Link: "#services",
+    },
+    {
+      menu: "Token Utility",
+      Link: "#token-utility",
+    },
+    {
+      menu: "Token",
+      Link: "#token",
+    },
+    {
+      menu: "Faq",
+      Link: "#faq",
+    },
+    {
+      menu: "Contact",
+      Link: "#contact",
+    },
+  ];
   return (
     <footer>
       <div
@@ -55,7 +80,7 @@ const Footer = () => {
                     data-animation="fadeInUp"
                     data-animation-delay={`0.${i + 2}s`}
                   >
-                    <a href="#">{list}</a>
+                    <a href={list.Link}>{list.menu}</a>
                   </li>
                 ))}
               </ul>

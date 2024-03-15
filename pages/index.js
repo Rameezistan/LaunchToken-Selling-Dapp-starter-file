@@ -2,7 +2,7 @@ import React from "react";
 
 //INTERNAL IMPORT
 import {
-  About,
+  TokenUtility,
   ArrowUp,
   Banner,
   Blog,
@@ -29,7 +29,7 @@ const index = () => {
       />
       <Banner />
       <Service />
-      <About />
+      <TokenUtility />
       <TokenSale />
       <Distribution />
       <HowtoJoin />
