@@ -33,7 +33,7 @@ const index = () => {
       <TokenSale />
       <Distribution />
       <HowtoJoin />
-      <Team />
+      {/* <Team /> */}
       <Faq />
       <Contact />
       <Footer />
