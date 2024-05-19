@@ -6,6 +6,7 @@ import {
   FaLinkedin,
   FaYoutube,
 } from "react-icons/fa";
+import { TfiEmail } from "react-icons/tfi";
 import { BsArrowRight } from "react-icons/bs";
 
 const Contact = () => {
@@ -57,7 +58,10 @@ const Contact = () => {
                   data-animation="fadeInUp"
                   data-animation-delay="0.2s"
                 >
-                  <i className="ion-ios-email"></i>
+                  <i>
+                    {" "}
+                    <TfiEmail />{" "}
+                  </i>
                   <div className="contact_detail">
                     <span>Email</span>
                     <p className="footer_link">

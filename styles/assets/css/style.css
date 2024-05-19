@@ -60,7 +60,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #5957cd;
+  color: #01edff;
 }
 
 p {
@@ -2170,6 +2170,7 @@ header a:hover,
   margin-top: 30px;
   padding: 20px 15px;
   transition: all 0.5s ease 0s;
+  height: 257px;
 }
 
 .radius_box {
